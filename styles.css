@@ -168,3 +168,81 @@ body {
     width: 250px;
 }
 
+
+/*---------------- Section 4 --------------------*/
+
+
+#action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    height: 150px;
+}
+
+.flex-container {
+    background-color: #3882f6;
+    color: white;
+    font-family: Roboto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    width: 75%;
+    height: 60%;
+    gap: 60px;
+    min-width: fit-content;
+}
+
+#action header {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#action .sign-up {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 135px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+#action .text {
+    flex: 0 1 auto;
+    min-width: fit-content;
+}
+
+/*---------------- Section 3 --------------------*/
+
+footer {
+    background-color: #1f2937;
+    padding: 40px;
+}
+
+footer header {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0 auto;
+    width: fit-content;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+
+}
